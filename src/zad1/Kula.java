@@ -8,11 +8,11 @@ public class Kula implements Figura {
     }
 
     public double obliczObjetosc() {
-        return 4.1887902047863905 * Math.pow(this.promien, 3.0);
+        return ((4/3)*Math.PI) * Math.pow(this.promien, 3.0);
     }
 
     public void wyswietlDane() {
-        System.out.println("zad1.Kula: ");
+        System.out.println("Kula");
         System.out.println("Promień: " + this.promien);
         System.out.println("Objętość: " + this.obliczObjetosc());
     }

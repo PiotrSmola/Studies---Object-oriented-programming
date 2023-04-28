@@ -12,11 +12,11 @@ public class Kolo implements Figura {
     }
 
     public double obliczObwod() {
-        return 6.283185307179586 * this.promien;
+        return 2*Math.PI * this.promien;
     }
 
     public void wyswietlDane() {
-        System.out.println("Koło: ");
+        System.out.println("Koło");
         System.out.println("Promień: " + this.promien);
         System.out.println("Pole: " + this.obliczPole());
         System.out.println("Obwód: " + this.obliczObwod());

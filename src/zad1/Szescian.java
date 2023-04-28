@@ -12,7 +12,7 @@ public class Szescian implements Figura {
     }
 
     public void wyswietlDane() {
-        System.out.println("Sześcian: ");
+        System.out.println("Sześcian");
         System.out.println("Bok: " + this.bok);
         System.out.println("Objętość: " + this.obliczObjetosc());
     }

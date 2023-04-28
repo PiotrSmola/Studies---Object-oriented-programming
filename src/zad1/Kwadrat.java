@@ -16,7 +16,7 @@ public class Kwadrat implements Figura {
     }
 
     public void wyswietlDane() {
-        System.out.println("zad1.Kwadrat: ");
+        System.out.println("Kwadrat");
         System.out.println("Bok: " + this.bok);
         System.out.println("Pole: " + this.obliczPole());
         System.out.println("Obwód: " + this.obliczObwod());

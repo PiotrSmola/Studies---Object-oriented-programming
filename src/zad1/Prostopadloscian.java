@@ -16,7 +16,7 @@ public class Prostopadloscian implements Figura {
     }
 
     public void wyswietlDane() {
-        System.out.println("Prostopadłościan: ");
+        System.out.println("Prostopadłościan");
         System.out.println("Długość: " + this.dlugosc);
         System.out.println("Szerokość: " + this.szerokosc);
         System.out.println("Wysokość: " + this.wysokosc);

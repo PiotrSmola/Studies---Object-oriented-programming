@@ -18,7 +18,7 @@ public class Prostokat implements Figura {
     }
 
     public void wyswietlDane() {
-        System.out.println("Prostokąt: ");
+        System.out.println("Prostokąt");
         System.out.println("Długość: " + this.dlugosc);
         System.out.println("Szerokość: " + this.szerokosc);
         System.out.println("Pole: " + this.obliczPole());

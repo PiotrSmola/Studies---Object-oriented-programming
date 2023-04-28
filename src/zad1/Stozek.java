@@ -10,11 +10,11 @@ public class Stozek implements Figura {
     }
 
     public double obliczObjetosc() {
-        return 1.0471975511965976 * Math.pow(this.promien, 2.0) * this.wysokosc;
+        return (Math.PI * Math.pow(this.promien, 2.0) * this.wysokosc);
     }
 
     public void wyswietlDane() {
-        System.out.println("Stożek: ");
+        System.out.println("Stożek");
         System.out.println("Promień: " + this.promien);
         System.out.println("Wysokość: " + this.wysokosc);
         System.out.println("Objętość: " + this.obliczObjetosc());
